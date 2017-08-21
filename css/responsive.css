@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width: 989px){
+	.wpb_column{
+		margin-bottom:3em;
+	}
+	
+	#carousel-testimonials .carousel-indicators{
+		top:30rem;	
+	}
+}
+
+@media only screen and (max-width: 767px){
+	
+	.navbar-header{
+		background-color:#fff;
+		height:72px;
+	}
+	
+	.navbar-inverse{
+		top:0;
+	}
+	
+	.navbar-collapse{
+		background-color:#fff;
+		border-top:none;
+	}
+	
+	.navbar-inverse .navbar-toggle .icon-bar{
+		background-color:#CCC;
+	}
+	
+	.navbar-inverse .navbar-toggle {
+    	border-color: none;
+	}
+	
+	.navbar-inverse .navbar-nav > li > a{
+		color:#222;
+	}
+	
+	.navbar-inverse .navbar-nav > li > a.active, .navbar-inverse .navbar-nav > li > a.focus{
+		color:#f2ad32 !important;
+	}
+	
+	.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+		color:#f2ad32 !important;
+	}
+	
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+		color:#f2ad32 !important;
+		background-color: #080808;
+	}
+	
+	.carousel-caption {
+    	top: 30%;
+	}
+	
+	#carousel-testimonials .carousel-indicators{
+		display:none;
+	}
+	
+	.contact-addr{
+		margin-bottom:1em;
+	}
+	
+	#quote-carousel .carousel-control{
+		display:none;
+	}
+	
+	.copyright-section{
+		text-align:center;
+	}
+	
+	.services{
+		margin-bottom:1em;
+	}
+	
+	.services::after{
+		bottom:16px;
+	}
+	
+}
+
+@media only screen and (max-width: 415px){
+	.calling > h1{
+		font-size:2em;
+	}
+	
+	.text{
+		font-size:16px !important;
+	}
+	
+	#menu-tabs .nav-pills > li > a{
+		font-size:13px;
+	}
+	
+	#quote-carousel .carousel-indicators{
+		top:100%;
+	}
+		
+}
